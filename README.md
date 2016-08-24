@@ -10,7 +10,7 @@ Viva Ui Kit's implementation for AngularJS
 We use BEM for this project, [read the guideline](http://cssguidelin.es/).
 
 ## Installing
-Run `npm install && npm run installdep` and you are good to go.
+Run `npm install` and you are good to go.
 
 ## Build & development
 Run `npm run build` for building, `npm run dev` will do the same but watching for file changes.

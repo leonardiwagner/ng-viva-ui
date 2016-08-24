@@ -4,14 +4,14 @@
   "description": "Viva Ui Kit's implementation for AngularJS",
   "main": "dist/cjs/ng-viva-ui.js",
   "scripts": {
-    "installdep": "bower install",
-    "prepare": "npm test && npm run build",
     "build": "gulp",
     "dev": "gulp dev",
     "dev:unbreakable": "gulp dev --unbreakable",
+    "docs": "gulp docs",
+    "prepare": "npm test && npm run build",
+    "postinstall": "bower install",
     "test": "gulp test",
-    "test:continous": "gulp test:continuous",
-    "docs": "gulp docs"
+    "test:continous": "gulp test:continuous"
   },
   "repository": {
     "type": "git",
